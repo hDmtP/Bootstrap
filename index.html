@@ -323,6 +323,31 @@
     </footer>
 
     <!-- Optional JavaScript -->
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyACooo1ExFTs9jDfPNgSUqB5VUwNuJa8lE",
+    authDomain: "silicon-keel-318011.firebaseapp.com",
+    projectId: "silicon-keel-318011",
+    storageBucket: "silicon-keel-318011.appspot.com",
+    messagingSenderId: "363239467384",
+    appId: "1:363239467384:web:f115d8b437f461aa91c08d",
+    measurementId: "G-EW8G0KXXSG"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
+</script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
